@@ -71,8 +71,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Ignore everything:
+# Ignore everything
 *
 
-# Do not ignore these files:
-UCC-Mirror.unitypackage
+# But not these files...
+!.gitignore
+!UCC-Mirror.unitypackage
